@@ -1,6 +1,6 @@
 {
-  "homepage": "https://mahiyakhan.github.io/To-Do-App",
   "name": "my-app",
+  "homepage": "https://mahiyakhan.github.io/To-Do-App",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.0.0",
